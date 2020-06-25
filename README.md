@@ -19,7 +19,9 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
 ### Funcionalidades
 
 - Navers
+
   - (Index) Rota para listagem dos Navers.
+
     - Filtrar por nome, tempo de empresa e cargo.
     - Entregará como retorno um vetor com todos os navers ou filtrado por algum dos parâmetro acima, exemplo:
       ```
@@ -27,14 +29,14 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
               {
                   id: 1,
                   name: Fulano,
-                  birthday_date: 1999-05-15,
+                  birthdate: 1999-05-15,
                   admission_date: 2020-06-12,
                   job_role: Desenvolvedor
               },
               {
                   id: 2,
                   name: Ciclano,
-                  birthday_date: 1992-10-28,
+                  birthdate: 1992-10-28,
                   admission_date: 2018-06-12,
                   job_role: Desenvolvedor
               }
@@ -42,13 +44,14 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
       ```
 
   - (Show) Rota para detalhar informações de um único naver através de seu identificador
+
     - Além das informações do naver, trazer quais projetos este participou
     - Entregará como retorno um objeto contendo informações sobre o Naver, exemplo:
       ```
       {
           id: 1,
           name: Fulano,
-          birthday_date: 1999-05-15,
+          birthdate: 1999-05-15,
           admission_date: 2020-06-12,
           job_role: Desenvolvedor,
           projects: [
@@ -65,7 +68,7 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
       ```
           {
               name: Fulano,
-              birthday_date: 1999-05-15,
+              birthdate: 1999-05-15,
               admission_date: 2020-06-12,
               job_role: Desenvolvedor,
               projects: [3]
@@ -74,6 +77,7 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
     - Entregará como retorno o objeto do usuário criado
 
 * Projetos
+
   - (Index) Rota para listagem dos Projetos
     - Filtrar por nome
     - Entregará como retorno um vetor com todos os projetos ou filtrado pelo nome, exemplo:
@@ -90,6 +94,7 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
           ]
       ```
   - (Show) Rota para detalhar um projeto
+
     - Além das informações do projeto, trazer quais foram os navers que participaram
     - Entregará como retorno um objeto contendo informações sobre o projeto, exemplo:
       ```
@@ -100,7 +105,7 @@ Tudo isso deve ser colocado em um repositório público do seu github pessoal, n
                       {
                           id: 1,
                           name: Fulano,
-                          birthday_date: 1999-05-15,
+                          birthdate: 1999-05-15,
                           admission_date: 2020-06-12,
                           job_role: Desenvolvedor
                       }
