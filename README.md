@@ -162,7 +162,7 @@ OBS: ```AS ROTAS A BAIXO NÃO PODEM SER ACESSADAS CASO O USUÁRIO NÃO POSSUA O 
               navers: [1]
           }
       ```
-    - O retorno é o objeto do usuário Atualizado
+    - O retorno é o objeto do projeto Atualizado
 
   - (Delete) Rota Para Deletar um Projeto
     - Recebe um identificador de projeto e o remove dos registros do banco.
