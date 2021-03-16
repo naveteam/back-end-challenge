@@ -14,7 +14,7 @@ Deve ser implementada uma API utilizando [node.js](https://nodejs.org) no padrã
 
 Junto a API, uma documentação de como testar o sistema é muito bem-vinda. Muitas vezes o README.md do projeto basta, porém também é interessante disponibizar documentação a partir de algum software para testar suas requests, recomendamos o [postman](https://www.postman.com/) ou [insomnia](https://insomnia.rest/download/);
 
-O entregável do teste será o link de um repositório público no seu github pessoal contendo tudo que foi pedido acima.
+Por favor envie um link do repositório como mensagem lá na gupy.
 
 ### Funcionalidades
 
